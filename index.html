@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aminu Gambo Abubakar | Portfolio</title>
+
+  <!-- Fonts (Poppins) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap 5 -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-root-margin="0px 0px -70%" tabindex="0">
+  <!-- Skip link (accessibility) -->
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <!-- Navbar (sticky) -->
+  <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark sticky-top nav-glass">
+    <div class="container">
+      <a class="navbar-brand fw-semibold d-flex align-items-center gap-2" href="#home" aria-label="Aminu home">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>Aminu</span>
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navLinks"
+        aria-controls="navLinks"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-sm btn-accent" href="#projects">
+              <i class="bi bi-lightning-charge me-1" aria-hidden="true"></i> Explore
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="home" class="section hero">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-12 col-lg-7">
+          <div class="badge-soft mb-3">
+            <i class="bi bi-stars me-2" aria-hidden="true"></i>
+            <span>Hello, I’m Aminu</span>
+          </div>
+
+          <h1 class="display-5 fw-bold lh-sm">
+            Computer Science Student<br class="d-none d-md-block" />
+            &amp; Software Developer
+          </h1>
+
+          <p class="lead mt-3 mb-4">
+            I build web solutions, design digital experiences.
+          </p>
+
+          <div class="d-flex flex-wrap gap-2">
+            <a class="btn btn-accent btn-lg" href="#projects">
+              View My Work <i class="bi bi-arrow-right ms-1" aria-hidden="true"></i>
+            </a>
+            <a class="btn btn-outline-accent btn-lg" href="https://docs.google.com/document/d/18uNVJLX74KKP1zCeUeM2mGaeh3M8KVAx/edit?usp=sharing&ouid=103349438338649275919&rtpof=true&sd=true" id="downloadCvBtn">
+              Download CV <i class="bi bi-download ms-1" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <div class="hero-meta mt-4 d-flex flex-wrap gap-3">
+            <div class="meta-chip">
+              <i class="bi bi-geo-alt me-2" aria-hidden="true"></i>
+              <span>Nigeria</span>
+            </div>
+            <div class="meta-chip">
+              <i class="bi bi-github me-2" aria-hidden="true"></i>
+              <span>Git &amp; GitHub Mentor</span>
+            </div>
+            <div class="meta-chip">
+              <i class="bi bi-palette me-2" aria-hidden="true"></i>
+              <span>Graphic Designer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-5">
+          <div class="profile-wrap mx-auto">
+            <div class="profile-ring" aria-hidden="true"></div>
+
+            <!-- Profile image -->
+            <img
+              class="profile-img profile-photo"
+              src="./assets/profile.png"
+              alt="Portrait of Aminu Gambo Abubakar"
+              width="340"
+              height="340"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+
+          <div class="quick-stats mt-4">
+            <div class="row g-2">
+              <div class="col-6">
+                <div class="stat-card">
+                  <div class="stat-num">Web</div>
+                  <div class="stat-label">Development</div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stat-card">
+                  <div class="stat-num">UI/UX</div>
+                  <div class="stat-label">Design</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">About</p>
+        <h2 class="section-title">Who I am</h2>
+        <p class="section-subtitle">
+          I’m a Computer Science student at Gombe State University with experience in web development,
+          UI/UX design, graphic design, and technical mentoring.
+        </p>
+      </div>
+
+      <div class="row g-3 mt-2">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="info-card">
+            <div class="info-icon"><i class="bi bi-mortarboard" aria-hidden="true"></i></div>
+            <h3 class="h6 mb-1">Computer Science Student</h3>
+            <p class="mb-0">Gombe State University (GSU)</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="info-card">
+            <div class="info-icon"><i class="bi bi-git" aria-hidden="true"></i></div>
+            <h3 class="h6 mb-1">Software Intern</h3>
+            <p class="mb-0">(GeekInk)</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="info-card">
+            <div class="info-icon"><i class="bi bi-brush" aria-hidden="true"></i></div>
+            <h3 class="h6 mb-1">Software Director II</h3>
+            <p class="mb-0">Nigerian Association Of Computing Students</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="info-card">
+            <div class="info-icon"><i class="bi bi-megaphone" aria-hidden="true"></i></div>
+            <h3 class="h6 mb-1">Airplug Ambassador</h3>
+            <p class="mb-0">Brand promotion &amp; content</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">Skills</p>
+        <h2 class="section-title">What I work with</h2>
+        <p class="section-subtitle">A balanced mix of development, design, and collaboration.</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-12 col-lg-4">
+          <div class="panel">
+            <div class="panel-head">
+              <h3 class="h5 mb-0"><i class="bi bi-code-slash me-2" aria-hidden="true"></i>Development</h3>
+            </div>
+            <div class="panel-body">
+              <div class="d-flex flex-wrap gap-2">
+                <span class="skill-pill"><i class="bi bi-filetype-html me-1"></i>HTML</span>
+                <span class="skill-pill"><i class="bi bi-filetype-css me-1"></i>CSS</span>
+                <span class="skill-pill"><i class="bi bi-filetype-js me-1"></i>JavaScript</span>
+                <span class="skill-pill"><i class="bi bi-github me-1"></i>Git &amp; GitHub</span>
+                <span class="skill-pill"><i class="bi bi-bootstrap me-1"></i>Bootstrap</span>
+                <span class="skill-pill"><i class="bi bi-bootstrap me-1"></i>PHP</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="panel">
+            <div class="panel-head">
+              <h3 class="h5 mb-0"><i class="bi bi-bezier2 me-2" aria-hidden="true"></i>Design</h3>
+            </div>
+            <div class="panel-body">
+              <div class="d-flex flex-wrap gap-2">
+                <span class="skill-pill"><i class="bi bi-layout-text-window-reverse me-1"></i>UI/UX Design</span>
+                <span class="skill-pill"><i class="bi bi-palette me-1"></i>Graphic Design</span>
+                <span class="skill-pill"><i class="bi bi-vector-pen me-1"></i>Figma</span>
+                <span class="skill-pill"><i class="bi bi-images me-1"></i>Canva</span>
+                <span class="skill-pill"><i class="bi bi-images me-1"></i>CorelDRAW</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="panel">
+            <div class="panel-head">
+              <h3 class="h5 mb-0"><i class="bi bi-people me-2" aria-hidden="true"></i>Other</h3>
+            </div>
+            <div class="panel-body">
+              <div class="d-flex flex-wrap gap-2">
+                <span class="skill-pill"><i class="bi bi-diagram-3 me-1"></i>Team Collaboration</span>
+                <span class="skill-pill"><i class="bi bi-camera-video me-1"></i>Content Creation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">Experience</p>
+        <h2 class="section-title">Where I’ve contributed</h2>
+        <p class="section-subtitle">Roles focused on mentoring, design, and building.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <h3 class="h5 mb-1">GeekInk — Software Intern</h3>
+            <p class="mb-2">Teaching Git, GitHub &amp; GitHub Desktop</p>
+            <ul class="mb-0">
+              <li>Guiding beginners through version control workflows</li>
+              <li>Helping learners build confidence with real project collaboration</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <h3 class="h5 mb-1">NACOS – Software Director II</h3>
+            <p class="mb-2">Coordinating software-related activities within the association
+                         - Supporting technical training and student developer initiatives
+                        - Collaborating with executives to deliver tech-driven programs</p>
+            <ul class="mb-0">
+              <li>Supporting branding and event campaigns</li>
+              <li>Creating consistent visuals for announcements and activities</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <h3 class="h5 mb-1">Airplug — Brand Ambassador</h3>
+            <p class="mb-2">Promoting digital services</p>
+            <ul class="mb-0">
+              <li>Creating marketing content</li>
+              <li>Driving awareness through community engagement</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">Projects</p>
+        <h2 class="section-title">Selected work</h2>
+        <p class="section-subtitle">A few projects across web, Python, and design.</p>
+      </div>
+
+      <div class="row g-3">
+        <!-- Project 1 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <article class="project-card h-100">
+            <div class="project-media" role="img" aria-label="Vegetable Joint App project image placeholder"></div>
+            <div class="project-body">
+              <h3 class="h6 mb-2">Vegetable Joint App</h3>
+              <p class="text-muted small mb-3">A responsive front-end layout for a vegetable ordering concept.</p>
+              <div class="d-flex flex-wrap gap-2 mb-3">
+                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Bootstrap</span>
+              </div>
+              <div class="d-flex gap-2">
+                <a class="btn btn-sm btn-outline-accent flex-fill" href="#" aria-label="Vegetable Joint App GitHub">GitHub</a>
+                <a class="btn btn-sm btn-accent flex-fill" href="#" aria-label="Vegetable Joint App Live Demo">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <article class="project-card h-100">
+            <div class="project-media" role="img" aria-label="Product Recommendation System project image placeholder"></div>
+            <div class="project-body">
+              <h3 class="h6 mb-2">Product Recommendation System</h3>
+              <p class="text-muted small mb-3">A Python-based system exploring recommendation logic.</p>
+              <div class="d-flex flex-wrap gap-2 mb-3">
+                <span class="tag">Python</span>
+              </div>
+              <div class="d-flex gap-2">
+                <a class="btn btn-sm btn-outline-accent flex-fill" href="#" aria-label="Product Recommendation System GitHub">GitHub</a>
+                <a class="btn btn-sm btn-accent flex-fill" href="#" aria-label="Product Recommendation System Live Demo">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <article class="project-card h-100">
+            <div class="project-media" role="img" aria-label="Tribunal Realms project image placeholder"></div>
+            <div class="project-body">
+              <h3 class="h6 mb-2">Tribunal Realms</h3>
+              <p class="text-muted small mb-3">Storytelling project with emphasis on visual design direction.</p>
+              <div class="d-flex flex-wrap gap-2 mb-3">
+                <span class="tag">Story</span><span class="tag">Visual Design</span>
+              </div>
+              <div class="d-flex gap-2">
+                <a class="btn btn-sm btn-outline-accent flex-fill" href="#" aria-label="Tribunal Realms GitHub">GitHub</a>
+                <a class="btn btn-sm btn-accent flex-fill" href="#" aria-label="Tribunal Realms Live Demo">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <article class="project-card h-100">
+            <div class="project-media" role="img" aria-label="Graphic Design Works project image placeholder"></div>
+            <div class="project-body">
+              <h3 class="h6 mb-2">Graphic Design Works</h3>
+              <p class="text-muted small mb-3">Flyers, banners, posters, and social media creatives.</p>
+              <div class="d-flex flex-wrap gap-2 mb-3">
+                <span class="tag">Canva</span><span class="tag">Branding</span><span class="tag">Posters</span>
+              </div>
+              <div class="d-flex gap-2">
+                <a class="btn btn-sm btn-outline-accent flex-fill" href="#" aria-label="Graphic Design Works GitHub">GitHub</a>
+                <a class="btn btn-sm btn-accent flex-fill" href="#" aria-label="Graphic Design Works Live Demo">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">Certificates</p>
+        <h2 class="section-title">Learning &amp; milestones</h2>
+        <p class="section-subtitle">Verified training and community programs.</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-12 col-lg-4">
+          <div class="certificate-card">
+            <div class="cert-icon"><i class="bi bi-award" aria-hidden="true"></i></div>
+            <div>
+              <h3 class="h6 mb-1">HTML &amp; CSS</h3>
+              <p class="mb-0">Prof. Isa Ali Pantami ICT Lab (2023)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="certificate-card">
+            <div class="cert-icon"><i class="bi bi-award" aria-hidden="true"></i></div>
+            <div>
+              <h3 class="h6 mb-1">UI/UX Design</h3>
+              <p class="mb-0">GDG GSU (2025)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="certificate-card">
+            <div class="cert-icon"><i class="bi bi-award" aria-hidden="true"></i></div>
+            <div>
+              <h3 class="h6 mb-1">Git &amp; GitHub Essentials</h3>
+              <p class="mb-0">PLP (2025)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">Contact</p>
+        <h2 class="section-title">Let’s connect</h2>
+        <p class="section-subtitle">Let’s connect and build something impactful.</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-12 col-lg-5">
+          <div class="row g-3">
+            <div class="col-12">
+              <a class="contact-card" href="mailto:yourname@email.com" aria-label="Email Aminu">
+                <div class="contact-icon"><i class="bi bi-envelope" aria-hidden="true"></i></div>
+                <div>
+                  <div class="fw-semibold">Email</div>
+                  <div class="small">aminugamboabubakar33@gmail.com</div>
+                </div>
+                <i class="bi bi-arrow-right ms-auto" aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <div class="col-12">
+              <a class="contact-card" href="#" target="_blank" rel="noreferrer" aria-label="Aminu on GitHub">
+                <div class="contact-icon"><i class="bi bi-github" aria-hidden="true"></i></div>
+                <div>
+                  <div class="fw-semibold">GitHub</div>
+                  <div class="small">github.com/aminullah-01</div>
+                </div>
+                <i class="bi bi-arrow-right ms-auto" aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <div class="col-12">
+              <a class="contact-card" href="#" target="_blank" rel="noreferrer" aria-label="Aminu on LinkedIn">
+                <div class="contact-icon"><i class="bi bi-linkedin" aria-hidden="true"></i></div>
+                <div>
+                  <div class="fw-semibold">LinkedIn</div>
+                  <div class="small">linkedin.com/in/username</div>
+                </div>
+                <i class="bi bi-arrow-right ms-auto" aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <div class="col-12">
+              <a class="contact-card" href="#" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
+                <div class="contact-icon"><i class="bi bi-whatsapp" aria-hidden="true"></i></div>
+                <div>
+                  <div class="fw-semibold">WhatsApp</div>
+                  <div class="small">+234 913 264 7360</div>
+                </div>
+                <i class="bi bi-arrow-right ms-auto" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-7">
+          <form class="form-card" id="contactForm" novalidate>
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <label class="form-label" for="name">Name</label>
+                <input class="form-control form-control-lg" id="name" name="name" type="text" placeholder="Your name" required />
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+              <div class="col-12 col-md-6">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-control form-control-lg" id="email" name="email" type="email" placeholder="you@email.com" required />
+                <div class="invalid-feedback">Please enter a valid email.</div>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="message">Message</label>
+                <textarea class="form-control form-control-lg" id="message" name="message" rows="5" placeholder="Tell me about your idea..." required></textarea>
+                <div class="invalid-feedback">Please write a message.</div>
+              </div>
+              <div class="col-12 d-flex flex-wrap gap-2 align-items-center">
+                <button class="btn btn-accent btn-lg" type="submit">
+                  Send Message <i class="bi bi-send ms-1" aria-hidden="true"></i>
+                </button>
+                <p class="small mb-0" id="formHint">This form uses a demo handler (no backend).</p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3">
+        <div>
+          <div class="fw-semibold">Aminu Gambo Abubakar</div>
+          <div class="small">Computer Science Student | Software Developer | Graphic Designer</div>
+        </div>
+
+        <div class="d-flex align-items-center gap-2">
+          <a class="social-link" href="#" aria-label="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+          <a class="social-link" href="#" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+          <a class="social-link" href="#" aria-label="Email"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+          <a class="social-link" href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <hr class="footer-divider" />
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between gap-2">
+        <small class="">&copy; <span id="year"></span> Aminu. All rights reserved.</small>
+        <small class="">Built with HTML, CSS, Bootstrap 5</small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Custom JS -->
+  <script src="./script.js"></script>
+</body>
+</html>
