@@ -453,81 +453,113 @@
         <p class="section-subtitle">Let’s connect and build something impactful.</p>
       </div>
 
-      <div class="row g-3">
-        <div class="col-12 col-lg-5">
-          <div class="row g-3">
-            <div class="col-12">
-              <a class="contact-card" href="mailto:yourname@email.com" aria-label="Email Aminu">
-                <div class="contact-icon"><i class="bi bi-envelope" aria-hidden="true"></i></div>
-                <div>
-                  <div class="fw-semibold">Email</div>
-                  <div class="small">aminugamboabubakar33@gmail.com</div>
-                </div>
-                <i class="bi bi-arrow-right ms-auto" aria-hidden="true"></i>
-              </a>
+      <div class="row g-4 align-items-start mt-3">
+        <!-- Left: CTA + Socials -->
+        <div class="col-12 col-lg-4">
+          <div class="info-card p-4 h-100 d-flex flex-column justify-content-between">
+            <div>
+              <h3 class="h5 mb-2">Start a conversation</h3>
+              <p class="mb-3 text-muted">Have a project, collaboration, or question? I’m open to opportunities and mentorship.</p>
+
+              <div class="d-flex gap-2 flex-wrap">
+                <a class="btn btn-accent btn-sm" href="mailto:aminugamboabubakar33@gmail.com" aria-label="Email Aminu">Email</a>
+                <a class="btn btn-outline-accent btn-sm" href="#projects" aria-label="View Projects">Portfolio</a>
+              </div>
             </div>
 
-            <div class="col-12">
-              <a class="contact-card" href="#" target="_blank" rel="noreferrer" aria-label="Aminu on GitHub">
-                <div class="contact-icon"><i class="bi bi-github" aria-hidden="true"></i></div>
-                <div>
-                  <div class="fw-semibold">GitHub</div>
-                  <div class="small">github.com/aminullah-01</div>
-                </div>
-                <i class="bi bi-arrow-right ms-auto" aria-hidden="true"></i>
-              </a>
-            </div>
-
-            <div class="col-12">
-              <a class="contact-card" href="#" target="_blank" rel="noreferrer" aria-label="Aminu on LinkedIn">
-                <div class="contact-icon"><i class="bi bi-linkedin" aria-hidden="true"></i></div>
-                <div>
-                  <div class="fw-semibold">LinkedIn</div>
-                  <div class="small">linkedin.com/in/username</div>
-                </div>
-                <i class="bi bi-arrow-right ms-auto" aria-hidden="true"></i>
-              </a>
-            </div>
-
-            <div class="col-12">
-              <a class="contact-card" href="#" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
-                <div class="contact-icon"><i class="bi bi-whatsapp" aria-hidden="true"></i></div>
-                <div>
-                  <div class="fw-semibold">WhatsApp</div>
-                  <div class="small">+234 913 264 7360</div>
-                </div>
-                <i class="bi bi-arrow-right ms-auto" aria-hidden="true"></i>
-              </a>
+            <div class="mt-4">
+              <p class="small text-muted mb-2">Find me on</p>
+              <div class="d-flex gap-2">
+                <a class="social-link" href="#" aria-label="GitHub" title="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+                <a class="social-link" href="#" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+                <a class="social-link" href="#" aria-label="WhatsApp" title="WhatsApp"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+                <a class="social-link" href="#" aria-label="Twitter" title="Twitter"><i class="bi bi-twitter" aria-hidden="true"></i></a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-lg-7">
-          <form class="form-card" id="contactForm" novalidate>
-            <div class="row g-3">
-              <div class="col-12 col-md-6">
-                <label class="form-label" for="name">Name</label>
-                <input class="form-control form-control-lg" id="name" name="name" type="text" placeholder="Your name" required />
-                <div class="invalid-feedback">Please enter your name.</div>
-              </div>
-              <div class="col-12 col-md-6">
-                <label class="form-label" for="email">Email</label>
-                <input class="form-control form-control-lg" id="email" name="email" type="email" placeholder="you@email.com" required />
-                <div class="invalid-feedback">Please enter a valid email.</div>
-              </div>
-              <div class="col-12">
-                <label class="form-label" for="message">Message</label>
-                <textarea class="form-control form-control-lg" id="message" name="message" rows="5" placeholder="Tell me about your idea..." required></textarea>
-                <div class="invalid-feedback">Please write a message.</div>
-              </div>
-              <div class="col-12 d-flex flex-wrap gap-2 align-items-center">
-                <button class="btn btn-accent btn-lg" type="submit">
-                  Send Message <i class="bi bi-send ms-1" aria-hidden="true"></i>
-                </button>
-                <p class="small mb-0" id="formHint">This form uses a demo handler (no backend).</p>
-              </div>
+        <!-- Right: Contact methods + Form -->
+        <div class="col-12 col-lg-8">
+          <div class="row g-3 mb-3">
+            <div class="col-12 col-md-6">
+              <a class="contact-card d-flex align-items-start" href="mailto:aminugamboabubakar33@gmail.com" aria-label="Email Aminu">
+                <div class="contact-icon"><i class="bi bi-envelope" aria-hidden="true"></i></div>
+                <div class="ms-3">
+                  <div class="fw-semibold">aminugamboabubakar33@gmail.com</div>
+                  <div class="small text-muted">Best for project inquiries</div>
+                </div>
+              </a>
             </div>
-          </form>
+
+            <div class="col-12 col-md-6">
+              <a class="contact-card d-flex align-items-start" href="https://github.com/aminullah-01" target="_blank" rel="noreferrer" aria-label="Aminu on GitHub">
+                <div class="contact-icon"><i class="bi bi-github" aria-hidden="true"></i></div>
+                <div class="ms-3">
+                  <div class="fw-semibold">github.com/aminullah-01</div>
+                  <div class="small text-muted">Source code & projects</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <a class="contact-card d-flex align-items-start" href="#" target="_blank" rel="noreferrer" aria-label="Aminu on LinkedIn">
+                <div class="contact-icon"><i class="bi bi-linkedin" aria-hidden="true"></i></div>
+                <div class="ms-3">
+                  <div class="fw-semibold">linkedin.com/in/username</div>
+                  <div class="small text-muted">Professional network</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <a class="contact-card d-flex align-items-start" href="#" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
+                <div class="contact-icon"><i class="bi bi-whatsapp" aria-hidden="true"></i></div>
+                <div class="ms-3">
+                  <div class="fw-semibold">+234 913 264 7360</div>
+                  <div class="small text-muted">Quick messages on WhatsApp</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="form-card p-4">
+            <form
+              id="contactForm"
+              data-endpoint="https://formspree.io/f/xvzqejaa"
+              action="https://formspree.io/f/xvzqejaa"
+              method="POST"
+              novalidate
+            >
+              <div class="row g-3">
+                <div class="col-12 col-md-6">
+                  <label class="form-label" for="name">Name</label>
+                  <input class="form-control form-control-lg" id="name" name="name" type="text" placeholder="Your name" required />
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <label class="form-label" for="email">Email</label>
+                  <input class="form-control form-control-lg" id="email" name="email" type="email" placeholder="you@email.com" required />
+                  <div class="invalid-feedback">Please enter a valid email.</div>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="subject">Subject</label>
+                  <input class="form-control" id="subject" name="subject" type="text" placeholder="Short subject (optional)" />
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="message">Message</label>
+                  <textarea class="form-control form-control-lg" id="message" name="message" rows="5" placeholder="Tell me about your idea..." required></textarea>
+                  <div class="invalid-feedback">Please write a message.</div>
+                </div>
+                <div class="col-12 d-flex flex-wrap gap-2 align-items-center">
+                  <button class="btn btn-accent btn-lg" type="submit">
+                    Send Message <i class="bi bi-send ms-1" aria-hidden="true"></i>
+                  </button>
+                  <p class="small mb-0 ms-2" id="formHint">Your message will be sent securely via Formspree.</p>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
 
